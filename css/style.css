@@ -145,32 +145,36 @@ Web Developer Test Stylesheet - Edward Calugtong
   #nav:checked + .nav-open {
     transform: rotate(45deg);
   }
+
   #nav:checked + .nav-open i {
     background: #fff;
     transition: transform 0.2s ease;
   }
+
   #nav:checked + .nav-open i:nth-child(1) {
     transform: translateY(6px) rotate(180deg);
   }
+
   #nav:checked + .nav-open i:nth-child(2) {
     opacity: 0;
   }
+
   #nav:checked + .nav-open i:nth-child(3) {
     transform: translateY(-6px) rotate(90deg);
   }
+
   #nav:checked + .nav-open i:nth-child(4) {
     opacity: 0;
   }
+
   #nav:checked ~ .nav-container {
     z-index: 9990;
     opacity: 1;
   }
+
   #nav:checked ~ .nav-container ul li a {
     opacity: 1;
     transform: translateY(0);
-  }
-  .hidden {
-    display: none;
   }
 
   .special {
@@ -444,6 +448,7 @@ Web Developer Test Stylesheet - Edward Calugtong
 
     .sidebar.sidebar-md .dropdown-menu li.dropdown-header{
       height: auto;
+      font-size: 14px;
     }
 
     .image-box{
@@ -457,48 +462,10 @@ Web Developer Test Stylesheet - Edward Calugtong
   }
 
   @media (min-width: 768px) {
-    .sidebar.sidebar-sm .dropdown-toggle {
-      display: none;
-    }
-    .sidebar.sidebar-sm .dropdown-menu {
-      border-width: 0px;
-      box-shadow: none;
-      display: block;
-      position: relative;
-      width: 100%;
-      z-index: 0;
-    }
-    .sidebar.sidebar-sm .dropdown-menu .dropdown-header {
-      font-size: 16px;
-      font-weight: 600;
-      padding: 15px 10px 10px;
-    }
-    .sidebar.sidebar-sm .dropdown-menu .divider {
-      display: none;  
-    }
-    .sidebar.sidebar-sm .dropdown-menu li a {
-      position: relative;
-      display: block;
-      padding: 10px 15px;
-      margin-bottom: -1px;
-      background-color: #fff;
-      border: 1px solid #ddd;
-    }
-    .sidebar.sidebar-sm .dropdown-menu li a:focus, 
-    .sidebar.sidebar-sm .dropdown-menu li a:hover {
-      color: #555;
-      text-decoration: none;
-      background-color: #f5f5f5;
-    }
-    .sidebar.sidebar-sm .dropdown-menu li a:focus, 
-    .sidebar.sidebar-sm .dropdown-menu li a:hover {
-      color: #555;
-      text-decoration: none;
-      background-color: #f5f5f5;
-    }
 
     .sidebar.sidebar-md .dropdown-menu li.dropdown-header{
       height: 40px;
+      font-size: 14px;
     }
 
     .sidebar{
@@ -601,6 +568,14 @@ Web Developer Test Stylesheet - Edward Calugtong
       display: block;
     }
 
+    .sidebar.sidebar-lg .dropdown-menu li:hover{
+      font-weight: bold;
+    }
+
+    .sidebar.sidebar-md .dropdown-menu li.dropdown-header{
+      height: 51px;
+    }    
+
     .sidebar{
       padding: 10px;
     }
@@ -618,10 +593,6 @@ Web Developer Test Stylesheet - Edward Calugtong
       padding: 0 15px 15px;
     }
 
-    .sidebar.sidebar-lg .dropdown-menu li:hover{
-      font-weight: bold;
-    }
-
     nav ul li a{
       padding: 1em 2.3em;
     }
@@ -635,55 +606,11 @@ Web Developer Test Stylesheet - Edward Calugtong
       padding-top: 0;
     }
 
-    .sidebar.sidebar-md .dropdown-menu li.dropdown-header{
-      height: 51px;
-    }
+
 
   }
 
   @media (min-width: 1200px) {
-    .sidebar.sidebar-lg .dropdown-toggle {
-      display: none;
-    }
-    .sidebar.sidebar-lg .dropdown-menu {
-      border-width: 0px;
-      box-shadow: none;
-      display: block;
-      position: relative;
-      width: 100%;
-      z-index: 0;
-    }
-    .sidebar.sidebar-lg .dropdown-menu .dropdown-header {
-      font-size: 16px;
-      font-weight: 600;
-      padding: 15px 10px 10px;
-    }
-    .sidebar.sidebar-lg .dropdown-menu .dropdown-header:first-child {
-      padding-top: 0px; 
-    }
-    .sidebar.sidebar-lg .dropdown-menu .divider {
-      display: none;  
-    }
-    .sidebar.sidebar-lg .dropdown-menu li a {
-      position: relative;
-      display: block;
-      padding: 10px 15px;
-      margin-bottom: -1px;
-      background-color: #fff;
-      border: 1px solid #ddd;
-    }
-    .sidebar.sidebar-lg .dropdown-menu li a:focus, 
-    .sidebar.sidebar-lg .dropdown-menu li a:hover {
-      color: #555;
-      text-decoration: none;
-      background-color: #f5f5f5;
-    }
-    .sidebar.sidebar-lg .dropdown-menu li a:focus, 
-    .sidebar.sidebar-lg .dropdown-menu li a:hover {
-      color: #555;
-      text-decoration: none;
-      background-color: #f5f5f5;
-    }
     
     .col-md-9{
       width: 71%;
