@@ -125,11 +125,9 @@ Web Developer Test Stylesheet - Edward Calugtong
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 1em 2.5em;
     font-weight: 600;
-    /*padding-left: 25%;
-    padding-right: 25%;*/
     line-height: 73px;
+    padding: 1em 2.5em;
   }
 
   nav ul li a:hover {
@@ -349,8 +347,8 @@ Web Developer Test Stylesheet - Edward Calugtong
      RESPONSIVE STYLES              
   -----------------------------------------*/
 
+
   @media (min-width: 1200px) {
-    
     .col-md-9{
       width: 71%;
       float: left;
@@ -363,6 +361,10 @@ Web Developer Test Stylesheet - Edward Calugtong
 
     .header-container{
       padding-right: 50px;
+    }
+
+    nav ul li a{
+      padding: 1em 2.5em;
     }
   }
 
@@ -379,6 +381,10 @@ Web Developer Test Stylesheet - Edward Calugtong
 
     .special {
       display: none;
+    }
+
+    nav ul li a{
+      padding: 1em 1.7em;
     }
   }
 
@@ -469,10 +475,6 @@ Web Developer Test Stylesheet - Edward Calugtong
       padding: 0 15px 20px;
     }
 
-    nav ul li a{
-      padding: 1em 2.3em;
-    }
-
     .col-md-9{
       float: left;
       border: 1px solid #E4E2E3;
@@ -480,6 +482,10 @@ Web Developer Test Stylesheet - Edward Calugtong
       margin-top: 50px;
       border-bottom: 8px solid #F4F4F4;
       padding-top: 0;
+    }
+
+    nav ul li a{
+      padding: 1em 2em;
     }
 
   }  
