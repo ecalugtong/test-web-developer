@@ -232,12 +232,13 @@ Web Developer Test Stylesheet - Edward Calugtong
     width: 100%;
     height: 40px;
     margin: 20px 0 0;
-      font-size: 14px;
-      font-weight: 600;
-      background: #e4e2e2;
-      text-transform: uppercase;
-      border: 0;
-      border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #e4e2e2;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
   }
 
   .arrow{
@@ -263,6 +264,9 @@ Web Developer Test Stylesheet - Edward Calugtong
     background: #e4e2e2;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 1.5px;
+    color: #343e48;
+    height: 51px;
   }
 
   .sidebar.sidebar-md .dropdown-menu li.dropdown-header:first-child{
@@ -386,6 +390,10 @@ Web Developer Test Stylesheet - Edward Calugtong
     nav ul li a{
       padding: 1em 1.7em;
     }
+
+    .sidebar.sidebar-md .dropdown-menu li.dropdown-header{
+      height: auto;
+    }
   }
 
 
@@ -453,9 +461,8 @@ Web Developer Test Stylesheet - Edward Calugtong
     }
 
     .sidebar.sidebar-md .dropdown-menu li.dropdown-header{
-      height: 51px;
       text-align: left;
-      padding: 15px 15px;
+      padding: 15px 20px;
     }    
 
     .sidebar{
