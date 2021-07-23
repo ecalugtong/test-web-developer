@@ -28,8 +28,7 @@ Web Developer Test Stylesheet - Edward Calugtong
     color: #343e48;
     font-size: 18px;
     font-weight: bold;
-    padding-left: 15px;
-    padding-bottom: 15px;
+    padding: 0px 0px 15px 15px;
     font-style: italic;
   }
 
@@ -196,10 +195,8 @@ Web Developer Test Stylesheet - Edward Calugtong
     justify-content: space-between;
     align-items: center;
     max-width: 1366px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 0px 15px;
+    margin: 0 auto;
   }
 
   .dropdown-menu {
@@ -257,9 +254,7 @@ Web Developer Test Stylesheet - Edward Calugtong
   }
 
    .sidebar.sidebar-md .dropdown-menu li.dropdown-header{
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0px 10px 10px;
     font-weight: bold;
     background: #e4e2e2;
     text-transform: uppercase;
@@ -288,7 +283,6 @@ Web Developer Test Stylesheet - Edward Calugtong
   .content{
     padding-top: 20px;
   }
-
 
   .image-box img {
     width: 100%;
